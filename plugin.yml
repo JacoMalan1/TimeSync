@@ -1,0 +1,11 @@
+main: com.codelog.timesync.Main
+name: TimeSync
+version: 2.7.3
+author: CodeLog
+description: A plugin to sync the time across all your worlds.
+commands:
+  timesync:
+    description: Sync command.
+    usage: /timesync [sync:exclude]
+    aliases: [ts, tsync]
+    permission-message: You don't have the permission timesync.sync
